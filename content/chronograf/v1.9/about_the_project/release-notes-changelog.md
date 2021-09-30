@@ -8,6 +8,29 @@ menu:
     parent: About the project
 ---
 
+
+## v1.9.1 [TK]
+
+### Features
+- Distinguish template tasks in task list. <!-- https://github.com/influxdata/chronograf/pull/5807 -->
+- Upgrade golang to 1.17.1. <!-- https://github.com/influxdata/chronograf/pull/5816 -->
+
+### Bug Fixes
+- Fix Safari display issues of a Single Stat. <!-- https://github.com/influxdata/chronograf/pull/5784 -->
+- Upgrade bluemonday to resolve CVE-2021-29272. <!-- https://github.com/influxdata/chronograf/pull/5787 -->
+- Upgrade to `github.com/golang-jwt/jwt/v4` to resolve CVE-2020-26160. <!-- https://github.com/influxdata/chronograf/pull/5788 -->
+- Rename ARM RPMs with yum-compatible names. <!-- https://github.com/influxdata/chronograf/pull/5792 -->
+- Avoid useless browser history change. <!-- https://github.com/influxdata/chronograf/pull/5796 -->
+- Repair time rendering in horizontal table. <!-- https://github.com/influxdata/chronograf/pull/5803 -->
+- Name tickscript after a name task variable, when defined. <!-- https://github.com/influxdata/chronograf/pull/5804 -->
+- Make template tasks read-only. <!-- https://github.com/influxdata/chronograf/pull/5805 -->
+- Repair paginated retrival of flux tasks. <!-- https://github.com/influxdata/chronograf/pull/5806 -->
+- Enforce one organization between browser tabs. <!-- https://github.com/influxdata/chronograf/pull/5808 -->
+- Repair calculation of flux query range duration. <!-- https://github.com/influxdata/chronograf/pull/5810 -->
+- Update time range of flux queries on dashboard zoom. <!-- https://github.com/influxdata/chronograf/pull/5815 -->
+- Support Firefox private mode. <!-- https://github.com/influxdata/chronograf/pull/5818 -->
+- Skip missing values in line chart instead of returning zeros. <!-- https://github.com/influxdata/chronograf/pull/5821 -->
+
 ## v1.9.0 [2021-06-25]
 
 {{% warn %}}
